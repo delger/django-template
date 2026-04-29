@@ -1,0 +1,17 @@
+[project]
+name = "vocab-builder"
+version = "0.1.0"
+description = "Build your vocabulary"
+authors = [
+    {name = "Donald F. Elger",email = "don.elger@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "django (>=6.0.4,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

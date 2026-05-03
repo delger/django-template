@@ -1,9 +1,9 @@
 [project]
-name = "vocab-builder"
+name = "django-template"
 version = "0.1.0"
-description = "Build your vocabulary"
+description = "Reusable Django starter template"
 authors = [
-    {name = "Donald F. Elger",email = "don.elger@gmail.com"}
+    {name = "Donald F. Elger", email = "don.elger@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
@@ -11,6 +11,8 @@ dependencies = [
     "django (>=6.0.4,<7.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
